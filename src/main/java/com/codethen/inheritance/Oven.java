@@ -8,6 +8,7 @@ public class Oven implements Machine {
 		this.temperature = 0;
 	}
 
+	@Override
 	public void turnOn() {
 		System.out.println("Oven is on");
 	}
