@@ -6,4 +6,7 @@ public class Fridge implements Machine {
 		System.out.println("Fridge is on");
 	}
 
+	void turnLightOn() {
+		System.out.println("Light turned on");
+	}
 }
